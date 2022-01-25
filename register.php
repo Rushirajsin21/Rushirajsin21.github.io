@@ -1,0 +1,48 @@
+<?php
+require "navbar.php";
+?>
+<html>
+<body>
+<form action="insert.php" method="post" enctype="multipart/form-data"> 
+<h1 align="center">Register page</h1>
+<table align="center" border="1px" cellspacing="10" cellpadding="10">
+<tr>
+<td>Name:</td>
+<td><input type="text" name="nm" id="nm" value=""></td>
+</tr>
+
+<tr>
+<td>Email:</td>
+<td><input type="email" name="email" id="email" value=""></td>
+</tr>
+
+<tr>
+<td>password:</td>
+<td><input type="password" name="pass" id="pass" value=""></td>
+</tr>
+
+<tr>
+<td>Profile Image</td>
+<td><input type="file" name="file" id="name"></td>
+</tr>
+
+<td><input type="submit" name="submit" id="submit" value="submit"></td>
+<td><input type="reset" name="reset" id="reset" value="clear"></td>
+
+</table>
+</form>
+<br>
+<h4 align="center" ><a href="login.php">Login here</a></h6>
+</body>
+</html>
+																											
+
+									
+
+																					
+
+																								
+
+													
+
+																
